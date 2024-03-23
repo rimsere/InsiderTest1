@@ -44,6 +44,8 @@ public class QAJobsPage {
         methods.waitBySeconds(1);
         methods.click(By.xpath("//a[@href='https://jobs.lever.co/useinsider/78ddbec0-16bf-4eab-b5a6-04facb993ddc']"));
         methods.waitBySeconds(1);
+        methods.waitBySeconds(2);
+        
 
 
     }

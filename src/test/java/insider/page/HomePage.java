@@ -38,6 +38,7 @@ public class HomePage {
         ChromeDriver driver = new ChromeDriver(chromeOptions);
         driver.manage().window().maximize();
         driver.get("https://useinsider.com/careers/quality-assurance/");
+
     }
 
 }
